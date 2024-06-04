@@ -48,6 +48,9 @@ public class PackagesViewModel
 
     [Display(Name = "Project Name:")]
     public string? ProjectName { get; set; }
+    
+    [Display(Name = "Create a DockerFile:")]
+    public bool CreateDockerFile { get; set; }
 
     [Display(Name = "Connection String:")]
     public string? ConnectionString { get; set; }
